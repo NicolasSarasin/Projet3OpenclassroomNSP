@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'Shrikhand';
+    src: url('https://fonts.google.com/specimen/Shrikhand/Shrikhand.eot'),
+    	 url('https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff'),
+         url('https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf'),
+         url('https://fonts.google.com/specimen/Shrikhand/Shrikhand.svg');
+}
+@font-face{
+	font-family: 'Roboto';
+	src: url('https://fonts.google.com/specimen/Roboto/Roboto.eot'), 
+		 url('https://fonts.google.com/specimen/Roboto/Roboto.woff'),
+		 url('https://fonts.google.com/specimen/Roboto/Roboto.ttf'),
+		 url('https://fonts.google.com/specimen/Roboto/Roboto.svg');
+}
+@media screen and (max-width: 991px) and (min-width: 768px)
+{
+	html{
+		margin: auto;
+		font-family: Roboto;
+	}
+	.headerAccueil{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	header{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.CarteMenu {
+		display: flex;
+		justify-content: center;
+	}
+	.fa-arrow-left{
+		font-size: 30px;
+		position: absolute;
+		margin-top: 5px;
+		margin-left: -33%;
+		color: black;
+	}
+	.resto{
+		background-color: #F2F2F2;
+		border-radius: 18px;
+		max-width: 500px;
+		padding: 30px;
+		margin: 10px;
+		margin-right: 35px;
+		box-shadow: 6px 6px 6px #c4c3d0;
+	}
+	.TITREsection{
+		font-family: Shrikhand;
+		font-weight: normal;
+		display: flex;
+		font-size: 40px;
+		justify-content: space-between;
+		padding-right: 20px;
+	}
+	.new, .new2{
+		position: absolute;
+		margin-left: 400px;
+		margin-top: 20px;
+		padding: 10px;
+		font-family: Roboto;
+		font-weight: bold;
+	}
+	.new{
+		background-color: #99E2D0;
+		color: #008000;
+		padding: 10px;
+		font-size: 17px;
+	}
+	.new2{
+		background-color: #99E2D0;
+		color: #008000;
+		padding: 10px;
+		font-size: 17px;
+	}
+	.carte{
+		display: flex;
+		justify-content: center;
+	}
+	.card{
+		display: flex;
+		justify-content: center;
+	}
+	.TITREfooter{
+		color: white;
+		font-family: Shrikhand;
+		font-weight: normal;
+		font-size: 24px;
+	}
+}

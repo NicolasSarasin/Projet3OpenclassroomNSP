@@ -1,0 +1,10 @@
+body {
+  background-color: white;
+  color: black;
+}
+body:hover {
+  background-color: aqua;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

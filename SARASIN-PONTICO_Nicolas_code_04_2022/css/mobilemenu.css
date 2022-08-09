@@ -1,0 +1,312 @@
+html {
+    font-family: Roboto;
+}
+body {
+    margin: auto;
+}
+.menuheader {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.menuheader a {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    position: absolute;
+    top: 33px;
+    left: 5px;
+}
+.titlemain,
+.titlemain h1 {
+    font-family: Shrikhand;
+    font-size: 40px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.imagerestaturant {
+    max-width: 100%;
+}
+.menu {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: relative;
+    background-color: #f2f2f2;
+    margin-top: -80px;
+    padding: 5px;
+}
+.titlesection {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: Shrikhand;
+    font-weight: normal;
+    display: flex;
+    text-align: left;
+    font-size: 32px;
+    padding-right: 20px;
+}
+.titlesection .fa-heart-o {
+    opacity: 1;
+}
+.titlesection .fa-heart-o:hover {
+    opacity: 0;
+}
+.titlesection .fa-heart {
+    opacity: 0;
+    background-image: linear-gradient(#ff79da, #9356dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: opacity 1s;
+    cursor: pointer;
+}
+.titlesection .fa-heart:hover {
+    size: 30px;
+    background-image: linear-gradient(#ff79da, #9356dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: opacity 1s;
+    opacity: 1;
+}
+.titlesection .fa-heart,
+.titlesection .fa-heart-o {
+    position: absolute;
+    top: 42.5px;
+    right: 35px;
+}
+.titlemenu {
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 3px solid #99e2d0;
+    max-width: 50px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+.entrence {
+    animation-duration: 1s;
+    animation-name: entrence;
+}
+@keyframes entrence {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.dish {
+    animation-duration: 2s;
+    animation-name: dish;
+}
+@keyframes dish {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.dessert {
+    animation-duration: 3s;
+    animation-name: dessert;
+}
+@keyframes dessert {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+.carte2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 6px 6px 6px #c4c3d0;
+    min-width: 94%;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+}
+.card2 .debut {
+    min-width: 75.8%;
+    max-width: 100%;
+    max-height: 180px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.debut div {
+    display: flex;
+    justify-content: space-between;
+}
+.card2 h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card2 div p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card2 p,
+.card2 span {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.card2 span {
+    font-weight: bold;
+    transform: translateX(130%);
+    animation: spanslideinreverse 0.25s linear;
+}
+.card2:hover span {
+    transform: translateX(0%);
+    animation: spanslidein 0.25s linear;
+}
+.card2 .debut:hover {
+    text-overflow: ellipsis;
+}
+.check {
+    margin: 0px 0px 0px 0px;
+    padding: 30px 20px 30px 20px;
+    max-height: 80px;
+    color: white;
+    background-color: #99e2d0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    transform: translateX(100%);
+    opacity: 1;
+    animation: slideinreverse 0.25s linear;
+    /*display: none;*/
+}
+.card2:hover .check {
+    animation: slidein 0.25s linear;
+    transform: translateX(0%);
+    opacity: 1;
+}
+.card2:hover .fa-circle-check {
+    animation: rotative 0.5s linear;
+    animation-delay: 0.005s;
+    transform: rotate(0deg);
+}
+@keyframes rotative {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes slidein {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes slideinreverse {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+@keyframes spanslideinreverse {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(130%);
+    }
+}
+@keyframes spanslidein {
+    0% {
+        transform: translateX(130%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+.sectionbutton {
+    display: flex;
+    justify-content: center;
+}
+.bouton2 {
+    background: linear-gradient(#ff79da, #9356dc); /*#FF79DA*/ /*#9356DC*/
+    max-width: 300px;
+    border: 0px solid white;
+    border-radius: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-shadow: 6px 6px 6px #c4c3d0;
+    font-size: 25px;
+    color: white;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+}
+.bouton2:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.footermain {
+    padding-left: 35px;
+}
+footer {
+    background-color: #333333;
+    padding: 20px;
+    padding-left: 40px;
+}
+.titlefooter {
+    color: white;
+    font-family: Shrikhand;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 10px;
+}
+footer .fa-handshake-angle,
+footer .fa-utensils {
+    margin-right: 15px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+footer p {
+    margin-top: -10px;
+}

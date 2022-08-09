@@ -1,0 +1,16 @@
+.imagerestaturant {
+    height: 50%;
+}
+.menu {
+    margin-top: -150px;
+}
+.card2 {
+    margin-right: 50px;
+    max-height: 180px;
+    min-width: 300px;
+    width: 500px;
+}
+.card2 .debut {
+    width: 500px;
+    max-height: 80px;
+}

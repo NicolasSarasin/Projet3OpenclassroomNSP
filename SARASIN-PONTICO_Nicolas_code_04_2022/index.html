@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Accueil</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            href="http://fonts.googleapis.com/css?family=Roboto"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="http://fonts.googleapis.com/css?family=Shrikhand"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="css/mobile.css" />
+        <!-- feuille de style format smartphone -->
+        <link
+            rel="stylesheet"
+            media="screen AND (min-width: 500px)"
+            href="css/tablette.css"
+        />
+        <!-- feuille de style format tablette -->
+        <link
+            rel="stylesheet"
+            media="screen AND (min-width: 992px)"
+            href="css/desktop.css"
+        />
+        <!-- feuille de style format desktop -->
+        <script
+            src="https://kit.fontawesome.com/35fb32db18.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="loader">
+            <div class="lds-dual-ring"></div>
+        </div>
+        <header class="headermain">
+            <a href="index.html" class="titlemain"><h1>ohmyfood</h1></a>
+        </header>
+        <form class="formulary">
+            <label for="search-bar"
+                ><i class="fa-solid fa-location-dot"></i
+            ></label>
+            <input
+                type="text"
+                id="search-bar"
+                placeholder="Paris, Belleville"
+            />
+        </form>
+        <div class="divmain">
+            <h2 class="titledivmain">Réservez le menu qui vous convient</h2>
+            <p class="divparagraphemain1">
+                Découvrez des restaurants d'exception, sélectionnés par nos
+                soins
+            </p>
+            <button type="button" class="bouton">
+                Explorer nos restaurants
+            </button>
+        </div>
+        <h1 class="titlelist">Fonctionnement</h1>
+        <ol>
+            <li class="restaurant">
+                <i class="fa fa-mobile-screen"></i>Choisissez un restaurant
+            </li>
+            <li class="restaurant">
+                <i class="fa fa-list-ul"></i>Composez votre menu
+            </li>
+            <li class="restaurant">
+                <i class="fa fa-store"></i>Dégustez au restaurant
+            </li>
+        </ol>
+        <section class="sectionrestaurant">
+            <h2 class="titlerestaurant">Restaurants</h2>
+            <div class="tilemain">
+                <a href="palettegout.html" class="card">
+                    <div class="cont">
+                        <img
+                            src="images/palette_du_goût.jpg"
+                            alt="la_palette_du_goût"
+                        />
+                    </div>
+                    <div class="container">
+                        <h3>La palette du goût</h3>
+                        <p class="paragrapherestaurant">Ménilmontant</p>
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </a>
+                <a href="noteenchantee.html" class="card">
+                    <div class="cont">
+                        <img
+                            src="images/note_enchantée.jpg"
+                            alt="nôte_enchantée"
+                        />
+                    </div>
+                    <div class="container">
+                        <h3>La note enchantée</h3>
+                        <p class="paragrapherestaurant">Charonne</p>
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </a>
+                <a href="francaise.html" class="card">
+                    <div class="cont">
+                        <img
+                            src="images/à_la_française.jpg"
+                            alt="à_la_française"
+                        />
+                    </div>
+                    <div class="container">
+                        <h3>À la française</h3>
+                        <p class="paragrapherestaurant">Cité Rouge</p>
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </a>
+                <a href="delicesens.html" class="card">
+                    <div class="cont">
+                        <img
+                            src="images/délice_des_sens.jpg"
+                            alt="délice_des_sens"
+                        />
+                    </div>
+                    <div class="container">
+                        <h3>Le délice des sens</h3>
+                        <p class="paragrapherestaurant">Folie-Méricourt</p>
+                        <i class="fa fa-heart-o"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <footer class="footermain">
+            <h3 class="titlefooter">ohmyfood</h3>
+            <a href="#"><i class="fa fa-utensils"></i>Proposer un restaurant</a>
+            <a href="#"
+                ><i class="fa fa-handshake-angle"></i>Devenir partenaire</a
+            >
+            <a href="#">Mentions légales</a>
+            <a
+                href="mailto:nicolas.sararsin@sfr.fr?subject=Sujet_du_message"
+                class="contact"
+            >
+                Contact
+            </a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+.restaurant {
+    width: 350px;
+    margin-right: 35px;
+}
+.card .fa-heart-o,
+.card.fa-heart {
+    font-size: 30px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+.card {
+    max-width: 500px;
+    margin: 2%;
+}

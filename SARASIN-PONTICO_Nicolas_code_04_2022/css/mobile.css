@@ -1,13 +1,3 @@
-@font-face {
-    font-family: Roboto;
-    src: url("https://fonts.google.com/specimen/Roboto/Roboto.woff"),
-        url("https://fonts.google.com/specimen/Roboto/Roboto.ttf");
-}
-@font-face {
-    font-family: Shrikhand;
-    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf");
-}
 html {
     font-family: Roboto;
 }

@@ -1,23 +1,15 @@
 @font-face {
     font-family: Roboto;
-    src: url("https://fonts.google.com/specimen/Roboto/Roboto.eot"),
-        url("https://fonts.google.com/specimen/Shrikhand/Roboto.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Roboto.ttf"),
-        url("https://fonts.google.com/specimen/Roboto/Roboto.svg");
+    src: url("https://fonts.google.com/specimen/Roboto/Roboto.woff"),
+        url("https://fonts.google.com/specimen/Roboto/Roboto.ttf");
 }
 @font-face {
     font-family: Shrikhand;
-    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.eot"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.svg");
+    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
+        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf");
 }
 html {
     font-family: Roboto;
-    src: url("https://fonts.google.com/specimen/Roboto/Roboto.eot"),
-        url("https://fonts.google.com/specimen/Shrikhand/Roboto.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Roboto.ttf"),
-        url("https://fonts.google.com/specimen/Roboto/Roboto.svg");
 }
 body {
     margin: auto;
@@ -68,10 +60,6 @@ body {
 .titlemain,
 .titlemain h1 {
     font-family: Shrikhand;
-    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.eot"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.svg");
     font-size: 40px;
     font-weight: normal;
     text-decoration: none;
@@ -284,7 +272,7 @@ ol .restaurant:hover {
     transition: opacity 1s;
 }
 .fa-heart:hover {
-    resize: 30px;
+    font-size: 30px;
     background-image: linear-gradient(#ff79da, #9356dc);
     background-clip: text;
     -webkit-background-clip: text;
@@ -303,10 +291,6 @@ footer {
 .titlefooter {
     color: white;
     font-family: Shrikhand;
-    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.eot"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf"),
-        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.svg");
     font-weight: normal;
     font-size: 25px;
     margin-top: 10px;

@@ -2,6 +2,7 @@ html {
     font-family: Roboto;
 }
 body {
+    font-family: Roboto;
     margin: auto;
 }
 .loader {
@@ -46,6 +47,7 @@ body {
     padding-bottom: 10px;
     margin-top: 20px;
     box-shadow: 0px 6px 6px #c4c3d0;
+    font-family: Shrikhand;
 }
 .titlemain,
 .titlemain h1 {

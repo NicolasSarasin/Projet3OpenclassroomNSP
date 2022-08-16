@@ -1,3 +1,17 @@
+@font-face {
+    font-family: Shrikhand;
+    src: url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.eot"),
+        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.woff"),
+        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.ttf"),
+        url("https://fonts.google.com/specimen/Shrikhand/Shrikhand.svg");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("https://fonts.google.com/specimen/Roboto/Roboto.eot"),
+        url("https://fonts.google.com/specimen/Roboto/Roboto.woff"),
+        url("https://fonts.google.com/specimen/Roboto/Roboto.ttf"),
+        url("https://fonts.google.com/specimen/Roboto/Roboto.svg");
+}
 html {
     font-family: Roboto;
 }
